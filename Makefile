@@ -1,4 +1,6 @@
 blockchain.out: *.cpp *.h
-	g++ *.cpp -o blockchain.out
-run:	blockchain.out
-	./blockchain.out
+	g++ *.cpp -g -o blockchain
+run:	blockchain
+	./blockchain
+clean:  
+	rm ./blockchain
